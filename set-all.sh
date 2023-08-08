@@ -23,6 +23,7 @@ for repo in \
     "https://github.com/Jude-Paul/GF-Patterns-For-Dangerous-PHP-Functions" \
     "https://github.com/NitinYadav00/gf-patterns" \
     "https://github.com/scumdestroy/YouthCrew-GF-Patterns"
+    "https://github.com/iamdk26/gf-patterns"
 do
   # Check if the repository is public
     if curl -s -I "$repo" | grep -q "HTTP/.* 200"; then
